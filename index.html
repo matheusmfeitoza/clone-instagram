@@ -4,60 +4,116 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Clone Instagram</title>
   </head>
   <body>
-    <div>
-      <figure>
-        <img
-          src="assets/instagram-celular.png"
-          alt="Foto de um celular usando o APP instragram"
-        />
-      </figure>
-    </div>
-    <div>
-      <h1><img src="assets/instagram-logo.png" alt="Logo do instagram" /></h1>
-      <form>
-        <input
-          type="text"
-          name="usuario"
-          id="usuario"
-          placeholder="Telefone, nome de usuário ou email"
-        />
-        <input
-          type="password"
-          name="password"
-          id="password"
-          placeholder="Senha"
-        />
-      </form>
-
-      <span>OU</span>
-
+    <div class="container">
       <div>
         <figure>
-          <img src="assets/fb-icon.png" alt="Logo Facebook" />
-          <p><a href="#">Entrar com Facebook</a></p>
+          <img
+            class="cel-img"
+            src="assets/instagram-celular.png"
+            alt="Foto de um celular usando o APP instragram"
+          />
         </figure>
       </div>
+      <div class="main-container">
+        <div class="content-principal">
+          <div class="container-logo-insta">
+            <h1>
+              <img
+                class="logo-insta"
+                src="assets/instagram-logo.png"
+                alt="Logo do instagram"
+              />
+            </h1>
+            <form class="form-login">
+              <input
+                type="text"
+                name="usuario"
+                id="usuario"
+                placeholder="Telefone, nome de usuário ou email"
+              />
+              <input
+                type="password"
+                name="password"
+                id="password"
+                placeholder="Senha"
+              />
+              <button>Entrar</button>
+            </form>
 
-      <p>
-        <a href="#">Esqueceu a senha?</a>
-      </p>
+            <span class="spn-option">OU</span>
+
+            <div class="container-fb-login">
+              <figure>
+                <img
+                  class="fb-logo"
+                  src="assets/fb-icon.png"
+                  alt="Logo Facebook"
+                />
+              </figure>
+              <p><a href="#">Entrar com Facebook</a></p>
+            </div>
+            <div class="forget-pass">
+              <p>
+                <a href="#">Esqueceu a senha?</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="not-have-account">
+          <p>Não tem uma conta? <a href="#">Cadastre-se</a></p>
+        </div>
+        <div>
+          <p class="claim-app">Obtenha o aplicativo.</p>
+          <div class="apps-store">
+            <figure class="apps-figure">
+              <img
+                class="google-img"
+                src="assets/googleplay-button.png"
+                alt="Botão da Google Play"
+              />
+              <img
+                class="apple-img"
+                src="assets/apple-button.png"
+                alt="Botão da Apple Store"
+              />
+            </figure>
+          </div>
+        </div>
+      </div>
     </div>
-
-    <div>
-      <p>Não tem uma conta? <a href="#">Cadastre-se</a></p>
-    </div>
-
-    <div>
-      <p>Obtenha o aplicativo.</p>
+    <footer>
       <div>
-        <figure>
-          <img src="assets/googleplay-button.png" alt="Botão da Google Play" />
-          <img src="assets/apple-button.png" alt="Botão da Apple Store" />
-        </figure>
+        <a href="#">Meta</a>
+        <a href="#">Sobre</a>
+        <a href="#">Blog</a>
+        <a href="#">Carreiras</a>
+        <a href="#">Ajuda</a>
+        <a href="#">API</a>
+        <a href="#">Privacidade</a>
+        <a href="#">Termos</a>
+        <a href="#">Principais contas</a>
+        <a href="#">Hashtags</a>
+        <a href="#">Localizações</a>
+        <a href="#">Instagram Lite</a>
       </div>
-    </div>
+      <div>
+        <a href="#">Carregamento de contatos e não usuários</a>
+      </div>
+      <div>
+        <a href="#">Dança</a>
+        <a href="#">Comida e bebida</a>
+        <a href="#">Casa e jardim</a>
+        <a href="#">Música</a>
+        <a href="#">Artes visuais</a>
+      </div>
+      <div>
+        <p>Português (Brasil)</p>
+        <span>2022 Instagram from Meta</span>
+      </div>
+    </footer>
   </body>
 </html>

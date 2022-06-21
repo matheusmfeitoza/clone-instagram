@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+a {
+  text-decoration: none;
+}
+
+/* Container */
+
+body {
+  height: 100vh;
+  background-color: #fafafa;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+/* Conteúdo Principal */
+
+.content-principal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: none;
+  padding: 2rem;
+  background-color: #fff;
+}
+.container-logo-insta {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.logo-insta {
+  max-width: 200px;
+  margin: 20px;
+}
+.form-login {
+  display: flex;
+  flex-direction: column;
+  gap: 0.475rem;
+}
+.form-login input {
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #eee;
+}
+.form-login button {
+  padding: 0.375rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #b2dffc;
+  color: white;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+/* Imagem Celular */
+.cel-img {
+  /* width: 500px; */
+  max-width: 500px;
+}
+
+.spn-option {
+  text-align: center;
+  font-size: 0.685rem;
+  margin: 0.875rem 0;
+  font-weight: 200;
+}
+
+.container-fb-login {
+  display: flex;
+  justify-content: center;
+  gap: 0.375rem;
+  margin-bottom: 20px;
+  font-size: 0.9rem;
+}
+
+.fb-logo {
+  width: 15px;
+  height: 15px;
+}
+.forget-pass {
+  text-align: center;
+  font-size: 0.775rem;
+}
+
+/* not have account */
+
+.not-have-account {
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+  padding: 2.1rem;
+  font-size: 0.875rem;
+}
+
+.claim-app {
+  text-align: center;
+  margin-bottom: 1.1rem;
+  font-size: 0.875rem;
+}
+
+.apps-store {
+  display: flex;
+}
+.apps-figure {
+  display: flex;
+  gap: 1rem;
+}
+
+.google-img {
+  max-width: 130px;
+}
+.apple-img {
+  max-width: 130px;
+}
